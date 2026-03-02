@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Driving to Romania</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container page">
+        <a class="back-btn" href="index.html">Back to My Blogs</a>
+
+        <article class="post">
+            <p class="meta">Published:  28, 2025 | Category: Travel Story</p>
+            <h1>Driving to Romania by Car</h1>
+            <p>This trip was long, but really worth it. I planned the route, checked the weather, and made sure the car was ready before leaving.
+                 It was really hot but it was fine. I got too see my grandparents, I loved it.</p>
+
+            <h2>On the road</h2>
+            <p>I made short stops for fuel, food, and rest every few hours. The road views were great, and the drive felt much easier with good planning.</p>
+
+            <section class="trip-media" aria-label="Road views media">
+                <figure class="trip-photo">
+                    <img src="media/sky-photo.jpeg" alt="Road view during the drive to Romania at sunset">
+                    <figcaption>Road view during the car ride.</figcaption>
+                </figure>
+                <figure class="trip-video">
+                    <video controls preload="metadata">
+                        <source src="media/IMG_1461-compat.mp4" type="video/mp4">
+                        Your browser does not support this video.
+                    </video>
+                    <figcaption>Short clip from the drive.</figcaption>
+                </figure>
+            </section>
+
+            <h2>What I learned</h2>
+            <p>For long car trips, preparation is everything: documents, route backup, and enough breaks to stay focused while driving.</p>
+
+            <section class="game">
+                <h3>Mini Game: Road Trip Decision Challenge</h3>
+                <p id="drive-question"></p>
+                <div id="drive-options"></div>
+                <p class="status" id="drive-status">Score: 0</p>
+                <button class="primary-btn" id="drive-next" type="button">Next decision</button>
+            </section>
+        </article>
+</main>
+    <script src="b2-shop.js"></script>
+    <script src="drive-game.js"></script>
+</body>
+</html>
